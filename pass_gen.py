@@ -16,7 +16,6 @@ def genpas(paslen):
     ]
 
     #completa la longitud restante con caracteres aleatorios
-
     achar = ltr_upper + ltr_lower + dig + spec
     password += [random.choice(achar) for _ in range(paslen - 4)]
 
