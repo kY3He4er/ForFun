@@ -7,7 +7,7 @@ def genpas(paslen):
     dig = string.digits
     spec = string.punctuation
 
-    #minimo 4 sibolos con caracter de cada tipo
+    #minimo 4 simbolos con caracter de cada tipo
     password = [
         random.choice(ltr_upper),
         random.choice(ltr_lower),
